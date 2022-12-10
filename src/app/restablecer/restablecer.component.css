@@ -1,0 +1,8 @@
+.logo{width:400px;height: 200px;border: 5px solid black;margin-top: 2%;background-image: url(../img/logo.PNG);}
+.display_logo{display: flex;align-items: center;justify-content: center;}
+.form-floating{width: 50%;margin: 0 auto;}
+.botones{display: flex;justify-content:space-around;margin-bottom: 3%;width: 30%;margin: 0 auto;}
+.form-floating:hover{border: 2px solid gray;}
+.icon{display: flex;justify-content: center;margin-top: 2%;}
+.material-symbols-outlined{background-color: white;border-radius: 10px;font-size: 1.8rem;}
+.btn:hover{font-size: 1.2rem;border: 3px solid white;}
