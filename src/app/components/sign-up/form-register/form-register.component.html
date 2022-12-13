@@ -1,0 +1,66 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Registrate</h2>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <form class="mt-3" action="">
+                            <div class="mb-3">
+                                <input type="text" class="  form-control" id="nombre" aria-describedby="emailHelp"
+                                    placeholder="Nombre" autocomplete="off" formControlName="nombre">
+                                <!--<div class="text-danger" *ngIf="usuarioForm .get('nombre')?.hasError('required') && usuarioForm.get('nombre')?.touched">El Nombre es obligatorio</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp"
+                                    placeholder="Apellido" autocomplete="off" formControlName="apellido">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('apellido')?.hasError('required') && usuarioForm.get('apellido')?.touched">El apellido es obligatoria</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" id="phone" aria-describedby="emailHelp"
+                                    placeholder=" Telefono" autocomplete="off" formControlName="telefono">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('telefono')?.hasError('required') && usuarioForm.get('telefono')?.touched">El telefono es obligatoria</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="direccion" aria-describedby="emailHelp"
+                                    placeholder="Direccion de residencia" autocomplete="off"
+                                    formControlName="direccion">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('direccion')?.hasError('required') && usuarioForm.get('direccion')?.touched">La direccion es obligatorio</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="genero" aria-describedby="emailHelp"
+                                    placeholder="Genero" autocomplete="off" formControlName="genero">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('genero')?.hasError('required') && usuarioForm.get('genero')?.touched">El genero es obligatorio</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    placeholder="Email" autocomplete="off" formControlName="email">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('email')?.hasError('required') && usuarioForm.get('email')?.touched">El email es obligatorio</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Contraseña" autocomplete="off" formControlName="contrasena">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('contrasena')?.hasError('required') && usuarioForm.get('contrasena')?.touched">La contraseña es obligatorio</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Confirme su contraseña" autocomplete="off" formControlName="confcontrasena">
+                                <!--<div class="text-danger" *ngIf="usuarioForm.get('confcontrasena')?.hasError('required') && usuarioForm.get('confcontrasena')?.touched">El confirmar contraseña es obligatorio</div>-->
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-secondary float-start" routerLink="/signUp">Volver</button>
+                                <button type="submit" class="btn btn-success float-end">Aceptar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

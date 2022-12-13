@@ -1,0 +1,18 @@
+.facebook>a, .whatsapp>a, .instagram>a{ text-decoration: none; color: black;}
+.facebook>a>i{ color: blue; }
+.whatsapp>a>i{ color: green; }
+.instagram>a>i{ color: rgb(252, 13, 13);}
+
+.instagram>a:hover{ color: red; }
+.facebook>a:hover{ color: blue; }
+.whatsapp>a:hover{ color: green; }
+
+.img{ width: 100%; }
+.CPadre{background-color: gray;}
+
+/********************************** RESPONSIVE PARA PANTALLAS PEQUEÑAS********************************/
+@media (max-width:500px){
+  .facebook, .whatsapp,.instagram{
+    width: 100% !important;
+  }
+}

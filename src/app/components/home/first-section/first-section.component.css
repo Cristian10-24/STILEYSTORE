@@ -1,0 +1,22 @@
+.anonima{display: none;}
+.btn>a{text-decoration: none; font-size: 20px;}
+
+
+/********************************** RESPONSIVE PARA PANTALLAS PEQUEÑAS********************************/
+@media (max-width:719px){
+  .cardContainer{margin-bottom: 50px;}
+  .btn{width: 20%;position: relative;left: 80%;}
+}
+
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+
+@media  (min-width: 720px) and (max-width:990px) {
+  .cardContainer{ width: 50% !important; margin-bottom: 50px; }
+  .anonima{ display: block; }
+  .btn{ width: 20%; position: relative; left: 80%; }
+}
+
+/************************************ RESPONSIVE PARA PANATLLAS GRANDES*******************************/
+@media (min-width:991px){
+  .btn{ margin-top: 30px; width: 20%; position: relative; left: 80%; }
+}
